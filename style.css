@@ -24,6 +24,13 @@ p {
     padding: 20px;
 }
 
-.loader {
+.modal {
     background-color: black;
+}
+
+img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
