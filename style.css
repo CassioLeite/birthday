@@ -1,3 +1,9 @@
+body {
+    background-image: url('dotted-backgroud-image.jpg');
+    background-size: 300%;
+    background-position: center;
+}
+
 h1 {
     font-family: 'Lora', serif;  
     font-weight: 600;
@@ -5,8 +11,9 @@ h1 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bad Script', cursive;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .font-effect-shadow-multiple {
@@ -20,7 +27,7 @@ p {
     margin: 10px 0px 20px 0px;
     background-color: rgb(217, 252, 252);
     border-radius: 25px;
-    box-shadow: 0px 0px 4px #e6e5e5;
+    box-shadow: 0px 1px 4px #d6d4d4;
     padding: 20px;
     display: none; 
 }
@@ -31,16 +38,47 @@ p {
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: white;
 }
 
 .modal {
     background-color: black;
 }
 
-img {
+#loader {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.thumb {
+    margin-bottom: 10px;
+}
+
+.thumb #img-tumb {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(211, 210, 210)
+}
+
+.date, .name {
+    margin-left: 5px;
+    color: cornflowerblue;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.flower-icon {
+    position: fixed;
+    top: -240px;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.flower-icon img {
+    width: 100px;
 }
